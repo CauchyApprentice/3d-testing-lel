@@ -1,4 +1,7 @@
 res://main.tscn
 res://player.tscn
-res://player.gd
 res://floor.tscn
+res://player.gd
+res://enemy.tscn
+res://testWall.tscn
+res://map.tscn
