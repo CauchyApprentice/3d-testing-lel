@@ -10,7 +10,6 @@ material = SubResource("StandardMaterial3D_wjkac")
 size = Vector3(1.5, 1.5, 1.5)
 
 [node name="enemy" type="CharacterBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55377, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("BoxMesh_oiasf")

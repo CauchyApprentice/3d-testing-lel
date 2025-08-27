@@ -7,3 +7,4 @@ res://testWall.tscn
 res://map.tscn
 res://enemy.gd
 res://main.gd
+res://path_follow_3d.gd
