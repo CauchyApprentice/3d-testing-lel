@@ -1,10 +1,17 @@
-[gd_scene load_steps=6 format=3 uid="uid://cp3nk1ge1nsec"]
+[gd_scene load_steps=7 format=3 uid="uid://cp3nk1ge1nsec"]
 
 [ext_resource type="PackedScene" uid="uid://extdu8p6vycn" path="res://player.tscn" id="1_bsdcg"]
 [ext_resource type="Script" path="res://main.gd" id="1_dc6d3"]
 [ext_resource type="PackedScene" uid="uid://cn1wcuovd8px4" path="res://map.tscn" id="3_5jjhv"]
 [ext_resource type="PackedScene" uid="uid://wpx8c05fb8ej" path="res://enemy.tscn" id="3_j702u"]
 [ext_resource type="Script" path="res://enemy.gd" id="4_akku6"]
+
+[sub_resource type="Curve3D" id="Curve3D_xmbw7"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 0, -2.12, -20.476, 0, 0, 0, 0, 0, 0, 0, -0.89, -8.4656, 0, 0, 0, 0, 0, 0, 0, -2.28, 3.56428, 0, 0, 0, 0, 0, 0, -0.0598431, -0.553836, 18.5688),
+"tilts": PackedFloat32Array(0, 0, 0, 0)
+}
+point_count = 4
 
 [node name="Node3D" type="Node3D"]
 script = ExtResource("1_dc6d3")
@@ -20,3 +27,7 @@ transform = Transform3D(0.395369, 0.0641849, 0.916277, -0.918522, 0.0276278, 0.3
 [node name="enemy" parent="." instance=ExtResource("3_j702u")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.42661, 0.889911, 7.24719)
 script = ExtResource("4_akku6")
+
+[node name="enemyPath" type="Path3D" parent="."]
+transform = Transform3D(0.107427, 0.994213, 0, -0.994213, 0.107427, 0, 0, 0, 1, 0, 0, 0.880971)
+curve = SubResource("Curve3D_xmbw7")
