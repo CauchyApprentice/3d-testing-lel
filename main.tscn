@@ -1,9 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://cp3nk1ge1nsec"]
+[gd_scene load_steps=6 format=3 uid="uid://cp3nk1ge1nsec"]
 
 [ext_resource type="PackedScene" uid="uid://extdu8p6vycn" path="res://player.tscn" id="1_bsdcg"]
+[ext_resource type="Script" path="res://main.gd" id="1_dc6d3"]
 [ext_resource type="PackedScene" uid="uid://cn1wcuovd8px4" path="res://map.tscn" id="3_5jjhv"]
+[ext_resource type="PackedScene" uid="uid://wpx8c05fb8ej" path="res://enemy.tscn" id="3_j702u"]
+[ext_resource type="Script" path="res://enemy.gd" id="4_akku6"]
 
 [node name="Node3D" type="Node3D"]
+script = ExtResource("1_dc6d3")
 
 [node name="player" parent="." instance=ExtResource("1_bsdcg")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1.36683, -8)
@@ -12,3 +16,7 @@ transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1.36683, -8)
 transform = Transform3D(0.395369, 0.0641849, 0.916277, -0.918522, 0.0276278, 0.394403, 4.19894e-09, -0.997556, 0.0698784, 0, 9.49462, 0)
 
 [node name="map" parent="." instance=ExtResource("3_5jjhv")]
+
+[node name="enemy" parent="." instance=ExtResource("3_j702u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.42661, 0.889911, 7.24719)
+script = ExtResource("4_akku6")

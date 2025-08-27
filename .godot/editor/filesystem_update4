@@ -5,3 +5,5 @@ res://player.gd
 res://enemy.tscn
 res://testWall.tscn
 res://map.tscn
+res://enemy.gd
+res://main.gd
