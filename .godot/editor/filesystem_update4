@@ -1,10 +1,8 @@
-res://main.tscn
-res://player.tscn
-res://floor.tscn
-res://player.gd
-res://enemy.tscn
-res://testWall.tscn
 res://map.tscn
+res://enemy.tscn
+res://player.tscn
+res://main.tscn
+res://floor.tscn
 res://enemy.gd
-res://main.gd
+res://shape_cast_3d.gd
 res://path_follow_3d.gd

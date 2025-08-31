@@ -18,7 +18,7 @@ point_count = 4
 script = ExtResource("1_dc6d3")
 
 [node name="player" parent="." instance=ExtResource("1_bsdcg")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 1.36683, -8)
+transform = Transform3D(0.45, 0, 0, 0, 0.45, 0, 0, 0, 0.45, 0, 1.237, -8)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.395369, 0.0641849, 0.916277, -0.918522, 0.0276278, 0.394403, 4.19894e-09, -0.997556, 0.0698784, 0, 9.49462, 0)
@@ -29,11 +29,13 @@ transform = Transform3D(0.395369, 0.0641849, 0.916277, -0.918522, 0.0276278, 0.3
 curve = SubResource("Curve3D_xmbw7")
 
 [node name="PathFollow3D" type="PathFollow3D" parent="enemyPath"]
-transform = Transform3D(-0.998052, 0, -0.0621201, 0, 0.999975, 0, 0.0621205, 0, -0.998045, -1.06, 0, 20.08)
-progress = 40.8887
+transform = Transform3D(-0.99115, 0, -0.132624, 0, 0.999975, 0, 0.132625, 0, -0.991143, -1.905, 0, -20.5)
 loop = false
 script = ExtResource("4_fsq11")
 
 [node name="enemy" parent="enemyPath/PathFollow3D" instance=ExtResource("3_j702u")]
-transform = Transform3D(1.00001, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.465, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.465, 0)
 script = ExtResource("4_akku6")
+
+[node name="RayCast3D" type="RayCast3D" parent="enemyPath/PathFollow3D/enemy"]
+target_position = Vector3(-1.275, 0.575, 8.91)

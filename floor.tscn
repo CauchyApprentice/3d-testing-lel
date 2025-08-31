@@ -4,7 +4,7 @@
 size = Vector2(5, 5)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_qfjix"]
-size = Vector3(5, 0.375, 5)
+size = Vector3(5, 0.01, 5)
 
 [node name="floor" type="StaticBody3D"]
 

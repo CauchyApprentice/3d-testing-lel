@@ -4,7 +4,7 @@ var speed
 
 
 func _ready() -> void:
-	speed = $enemy.speed
+	speed = $enemy.patrol_speed
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

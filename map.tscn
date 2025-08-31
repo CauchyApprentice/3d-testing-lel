@@ -11,9 +11,13 @@ size = Vector3(0.29187, 2.53082, 7.49414)
 
 [node name="floor" parent="." instance=ExtResource("1_yuiqg")]
 transform = Transform3D(4.51, 0, 0, 0, 4.51, 0, 0, 0, 9.35431, -0.066702, 0, 0.0530732)
+collision_layer = 2
+collision_mask = 5
 
 [node name="shelve" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.26086, 0)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -25,6 +29,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve2" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9491, 1.26086, 0)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve2"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -36,6 +42,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve3" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.47645, 1.26086, 0)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve3"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -47,6 +55,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve4" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2165, 1.26086, 0)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve4"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -58,6 +68,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve5" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.0164, 1.26086, 0)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve5"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -69,6 +81,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve6" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, 4.39073, 1.26086, -13.5107)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve6"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -80,6 +94,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve7" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, 4.33242, 1.26086, -9.562)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve7"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -91,6 +107,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve8" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, 4.28034, 1.26086, -6.03504)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve8"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -102,6 +120,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve9" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, 4.45298, 1.26086, -17.7267)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve9"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -113,6 +133,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve10" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, 4.50909, 1.26086, -21.5262)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve10"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -124,6 +146,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve11" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, -7.44106, 1.26086, -13.5107)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve11"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -135,6 +159,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve12" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, -7.49937, 1.26086, -9.562)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve12"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -146,6 +172,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve13" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, -7.55145, 1.26086, -6.03504)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve13"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -157,6 +185,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve14" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, -7.37881, 1.26086, -17.7267)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve14"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -168,6 +198,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve15" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, -7.3227, 1.26086, -21.5262)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve15"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -179,6 +211,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve16" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, 4.39073, 1.26086, 13.8905)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve16"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -190,6 +224,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve17" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, 4.33242, 1.26086, 17.8392)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve17"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -201,6 +237,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve18" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, 4.28034, 1.26086, 21.3661)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve18"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -212,6 +250,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve19" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, 4.45298, 1.26086, 9.67445)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve19"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -223,6 +263,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve20" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, 4.50909, 1.26086, 5.87497)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve20"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -234,6 +276,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve21" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, -7.44106, 1.26086, 13.8905)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve21"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -245,6 +289,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve22" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, -7.49937, 1.26086, 17.8392)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve22"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -256,6 +302,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve23" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, -7.55145, 1.26086, 21.3661)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve23"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -267,6 +315,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve24" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, -7.37881, 1.26086, 9.67445)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve24"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)
@@ -278,6 +328,8 @@ shape = SubResource("BoxShape3D_y82d3")
 
 [node name="shelve25" type="StaticBody3D" parent="."]
 transform = Transform3D(-0.014765, 0, -0.999891, 0, 1, 0, 0.999891, 0, -0.014765, -7.3227, 1.26086, 5.87497)
+collision_layer = 2
+collision_mask = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="shelve25"]
 transform = Transform3D(0.280347, 0, 0, 0, 2.47852, 0, 0, 0, 7.48379, 0, 0, 0)

@@ -7,9 +7,10 @@ albedo_color = Color(1, 0.0862745, 0, 1)
 material = SubResource("StandardMaterial3D_wjkac")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_2qclr"]
-size = Vector3(1.5, 1.5, 1.5)
 
 [node name="enemy" type="CharacterBody3D"]
+collision_layer = 4
+collision_mask = 3
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("BoxMesh_oiasf")

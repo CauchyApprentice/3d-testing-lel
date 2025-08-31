@@ -1,3 +1,5 @@
+RayCast3D
+ShapeCast3D
 PathFollow3D
 Path3D
 CollisionShape3D

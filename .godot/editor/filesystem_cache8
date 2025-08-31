@@ -1,7 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1756280836
-floor.tscn::PackedScene::3451428293177868789::1756280806::0::1::::<><>::
+::res://::1756635550
+enemy.gd::GDScript::-1::1756311975::0::1::::<>CharacterBody3D<>::
+enemy.tscn::PackedScene::1576575793416732013::1756313187::0::1::::<><>::
+floor.tscn::PackedScene::3451428293177868789::1756313187::0::1::::<><>::
 icon.svg::CompressedTexture2D::1263183439504974424::1756280806::1756280837::1::::<><>::
-main.tscn::PackedScene::5884285153008323162::1756280806::0::1::::<><>::uid://extdu8p6vycn::::res://player.tscn<>uid://bpf5rw2od2pbp::::res://floor.tscn
-player.gd::GDScript::-1::1756280806::0::1::::<>CharacterBody3D<>::
-player.tscn::PackedScene::329396145309141481::1756280806::0::1::::<><>::uid://bm70furnndinh::::res://player.gd
+main.gd::GDScript::-1::1756309877::0::1::::<>Node3D<>::
+main.tscn::PackedScene::5884285153008323162::1756313225::0::1::::<><>::uid://extdu8p6vycn::::res://player.tscn<>res://main.gd<>uid://cn1wcuovd8px4::::res://map.tscn<>uid://wpx8c05fb8ej::::res://enemy.tscn<>res://enemy.gd<>res://path_follow_3d.gd
+map.tscn::PackedScene::5740310574768582079::1756313187::0::1::::<><>::uid://bpf5rw2od2pbp::::res://floor.tscn
+path_follow_3d.gd::GDScript::-1::1756312795::0::1::::<>PathFollow3D<>::
+player.gd::GDScript::-1::1756308414::0::1::::<>CharacterBody3D<>::
+player.tscn::PackedScene::329396145309141481::1756313187::0::1::::<><>::res://player.gd
